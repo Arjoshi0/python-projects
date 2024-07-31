@@ -1,0 +1,819 @@
+# Getting output in different programming languages
+1) Python -> print(message)
+2) JavaScript -> console.log(message)
+3) C -> printf(message)
+4) C++ -> cout << message
+5) Java -> System.out.println(message)
+
+# Getting input in different programming languages
+1) Python -> input(message)
+2) JavaScript -> prompt(message)
+3) C -> scanf()
+4) C++ -> cin >> variable_name;
+
+# Software
+1) System software
+-> connects hardware to another hardware
+  a) Operating System Software (OS)
+  -> Gives platform to run AS
+    Windows, Linux, MacOS, Android, iOS, Blueberry
+  b) Utility Software
+    a) Device drivers
+    b) antivirus software
+  c) Language Translators
+2) Application software (AS)
+-> collection of programs that does specific task
+-> Mobile Banking applications, School Apps, Facebook, Youtube
+a) Customized/Tailored
+-> made for specific people, company or group
+b) General
+
+# Types of programming languages(PL)
+1) Low level PL
+  a) Machine/(Binary code) level PL
+  b) Assembly level PL
+    -> ADD A
+    -> SUB B
+    -> MOV B, A
+    -> LXI B, 2046
+2) High level PL (HLL)
+  a) Functional PL
+  b) Procedural PL
+  c) Object Oriented PL (OOP)
+  d) Natural Language Processing PL (NLP)
+  e) Database Query Language
+NOTE: any PL is at last translated to Machine/Binary because computer understands only
+the language of 0s and 1s
+
+# Language Translators
+1) Assembler -> translate assembly to machine and vice-versa
+2) Interpreter -> translate HLL to machine and vice-versa one line at a time
+3) Compiler -> translate HLL to machine and vice-versa all at once
+
+Electronic vs Electric
+1) Electric -> device that works on the basis of flow of electricity
+2) Electronic -> device that works both on the basis of flow of electricity and digital signal(binary codes) which is given by programming language translaters
+
+# Computer -> a electronic device that takes raw input, process it, and output a
+meaningful result(sometimes stores, if required)
+           -> Programming language does this job
+
+Fan -> No programming language
+
+# File extensions
+-> the word that represents the type of language you are using
+-> it is the last word after a period(.)
+-> Examples:
+  a) Python -> filename.py
+  b) Text file -> filename.txt
+  c) Word -> filename.docx
+  d) Presentation -> filename.pptx
+  e) Javascript -> filename.js
+  f) Typescript -> filename.ts
+  g) Java -> filename.java
+  h) C -> filename.c
+  i) C++ -> filename.cpp
+
+# Python
+-> It is a general purpose HLL
+-> It uses Interpreter
+
+# Commands
+* ) open shell/terminal/console
+1) Go to the directory/folder in which the python file you want to run is located
+  a) cd path -> change directory
+  b) to check what is inside the directory -> ls -> list
+  c) to check where you are right now -> pwd -> print working directory
+2) To run a python file type: python3 filename
+*) when you want to remove everything from your shell you can type
+  a) CTRL + L -> moves terminal to the top
+  b) clear -> it will remove every thing from code
+*) see previous command -> up arrow
+*) latter command -> down arrow
+*) if you want history of your command then type history
+3) make file -> touch filename.extension
+4) make directory -> mkdir foldername -> make directory
+5) remove file -> rm filename -> remove
+6) remove directory -> rm -rf directory
+
+# Data type
+1) Non-Primitive
+  a) List/Array
+  b) Dicitionary
+  c) Set
+2) Primitive
+  a) Numbers:
+    1) integer(int): eg: 0, -31, 440
+    2) floating numbers(float): 0.0001, -45.55454, 89.979797
+  b) Boolean(bool): True or False
+  -> validity, truthness, presence of any statement
+  c) String(str)
+  -> dustbin of data type
+  -> "anything" or 'anything'
+  -> 'not allowed" or "not allowed'
+
+# Cases
+1) Lowercase -> small letters
+2) Uppercase -> capital letters
+
+# Python is a case sensitive language
+
+It is raining
+is_student_not_passed = False
+
+1) Translate the word into simple english
+2) If the value is True then leave it as it is, otherwise if False then make its opposite
+
+Facebook register system
+1) phone = 0000000000
+2) email = user1@user.com
+3) password = p@ssw0rd
+
+Facebook Login System
+1) phone number or email -> user1@user.com
+2) password -> P@ssw0rd
+
+is_registered = database operation -> False
+
+# if is_registered = True:
+#   allow further step
+# otherwise:
+#   return
+
+if (phone_or_password = user1@user.com or phone_or_password = 0000000000) and password = p@ssw0rd
+  allow to login
+otherwise# Data type
+1) Non-Primitive
+  a) List/Array
+  b) Dicitionary
+  c) Set
+2) Primitive
+  a) Numbers:
+    1) integer(int): eg: 0, -31, 440
+    2) floating numbers(float): 0.0001, -45.55454, 89.979797
+  b) Boolean(bool): True or False
+  -> validity, truthness, presence of any statement
+  c) String(str)
+  -> dustbin of data type
+  -> "anything" or 'anything'
+  -> 'not allowed" or "not allowed'
+
+# Cases
+1) Lowercase -> small letters
+2) Uppercase -> capital letters
+
+# Python is a case sensitive language
+
+It is raining
+is_student_not_passed = False
+
+1) Translate the word into simple english
+2) If the value is True then leave it as it is, otherwise if False then make its opposite
+
+Facebook register system
+1) phone = 0000000000
+2) email = user1@user.com
+3) password = p@ssw0rd
+
+Facebook Login System
+1) phone number or email -> user1@user.com
+2) password -> P@ssw0rd
+
+is_registered = database operation -> False
+
+# if is_registered = True:
+#   allow further step
+# otherwise:
+#   return
+
+if (phone_or_password = user1@user.com or phone_or_password = 0000000000) and password = p@ssw0rd
+  allow to login
+otherwise
+  don't allow to login
+
+  x = 11
+  y = 3
+
+  print(x + y)
+  print(x - y)
+  print(x * y)
+  print(x / y)
+  print(x // y)
+  print(x % y)
+  print(x ** y)
+
+
+# Logical Operators
+# and -> all conditions must be True, to make it True otherwise it will give False
+# or -> at least one must correct to make it True, otherwise if none is True it will give False
+# not -> it reverses
+
+print(bool(1 and 1 and 1)) # True
+print(1 and 0 and 1) # False
+print(0 or 1 or 1) # True
+
+print(1 and 1) # True
+print(1 and 0) # False
+print(0 and 1) # False
+print(0 and 0) # False
+
+print(1 or 1) # True
+print(1 or 0) # True
+print(0 or 1) # True
+print(0 or 0) # False
+
+# Type conversion/type casting
+  don't allow to login
+
+Variable -> word that store values
+assignment operator =
+variable_name = value
+parentheses ()
+# function 
+  -> reusable block of code 
+  -> call/run/invoke a function to execute
+  -> function_name()
+print() -> built-in function -> given by programming language
+argument -> the value passed/given to the function
+         -> print(message) -> here message is the argument
+
+# String
+-> collection of character/text enclosed by double and single quote
+-> bracket notation -> []
+-> accessed by variable_name[index]
+-> index starts from 0 and increases numerically
+-> if counted from last then -1, -2, ....
+
+-> len(string/array/list) -> length of members
+-> type(value) -> data type
+
+Cases in PL
+1) Camel case: all letters must be lowercase and from the second word, first letter should be uppercase
+eg: camelCase,
+    word
+    firstWord
+    anotherWordHere
+    myNewVariable
+
+2) Snake case: all letters are small and separated by underscore
+eg: snake_case
+    word
+    first_word
+    another_word_here
+    my_new_variable
+3) Kebab case
+4) Pascal case
+
+# Rules for variable naming in python
+-> compulsory
+1) Only numbers, alphabet(lowercase and uppercase) and underscore -> _
+2) first character can not be a number
+3) No special keyword -> the words that have meaning in python
+
+# Convention
+-> optional to follow but are good practices
+1) use snake case
+
+# Conditionals
+-> used to make decisions, or choose between available options on the basis of condition
+-> If
+-> If else
+-> If elif
+-> If elif else
+
+== -> equality comparision operator
+
+if weather = "raining" then
+  carry umbrella
+otherwise dont carry umbrella
+
+weather = "sunny"
+"""
+take input from user
+Comments -> #
+Tells the language translator to ignore these line 
+# if <condition>:
+ // run this code if the condition is True
+else:
+code
+"""
+
+
+if weather == "raining":
+  print("carry umbrella")
+elif weather == "sunny":
+  print("Wear sunglasses")
+elif weather == "foggy" or weather == "misty":
+  print("Wear warm clothes")
+# add other weather conditions also
+else:
+  print("dont carry umbrella")
+
+# write conditionals statements for exams
+# <40 -> Failed
+# 40+ -> C
+# 50+ -> C+
+# 60+ -> B
+# 70+ -> B+
+# 80+ -> A
+# 90+ -> A+
+
+# Procedural PL
+
+marks = -15
+if marks < 0 or marks > 100:
+  print("Invalid marks")
+if marks < 40:
+  print("Failed")
+elif marks >= 40 and marks < 50:
+  print("C")
+elif marks >= 50 and marks < 60:
+  print("C+")
+elif marks >= 60 and marks < 70:
+  print("B")
+elif marks >= 70 and marks < 80:
+  print("B+")
+elif marks >= 80 and marks < 90:
+  print("A")
+elif marks > 90:
+  print("A+")
+
+# Taking input in python
+-> input() function is used to take input in python
+-> input always comes as string data type
+-> use int(), float(), bool() or str() to convert it into required data type. This process is called type conversion or type casting
+
+first_name = "Pukar"
+last_name = "Chhatkuli"
+f-string -> formatted string
+print(f"{first_name} {last_name}")
+
+Any data can be converted into bool
+1) If data is 0, "", '', False, {}, [], it is False
+2) Other than this -> it contains some valid value then it is True
+
+# Calculator
+# Take two input from user
+# ask the operation they want to do
+# calculate on the basis of their choice
+
+num_1 = bool(int(input("Enter first number: ")))
+num_2 = bool(int(input("Enter second number: ")))
+
+"" -> False
+0 -> False
+"False" -> True
+"0" -> 0
+
+print("Data type of num_1: ", type(num_1))
+print("Data type of num_2: ", type(num_2))
+
+print("num_1 ", num_1)
+print("num_2 ", num_2)
+
+
+# "15" + "20" -> "1520"
+# print(num_1 + num_2)
+
+# Calculator
+# Take two input from user
+# ask the operation they want to do
+# calculate on the basis of their choice
+
+num_1 = int(input("Enter first number: "))
+num_2 = int(input("Enter second number: "))
+
+choice = input("Enter +, -, *, /: ")
+
+# if choice == "+":
+#   print(num_1 + num_2)
+# elif choice == "-":
+#   print(num_1 - num_2)
+# elif choice == "*":
+#   print(num_1 * num_2)
+# elif choice == "/":
+#   if num_2 == 0:
+#     print("Divide by zero is a error")
+#   else:
+#     print(num_1 / num_2)
+# else:
+#   print("Invalid input")
+
+match choice:
+  case "+":
+    print(num_1 + num_2)
+  case "-":
+    print(num_1 - num_2)
+  case "*":
+    print(num_1 * num_2)
+  case "/":
+    if num_2 == 0:
+      print("Divide by zero is a error")
+    else:
+      print(num_1 / num_2)
+  case default:
+    print("Invalid input")
+
+# Loop
+1) for
+2) while
+
+# Functions
+-> When you want the same thing more than once but maybe at different places
+-> group of code block that can be re-used more than once
+-> must be called/invoked to run/executed
+# Syntax
+def function_name(parameter1, parameter2, ....., parameterN):
+  // CODE BLOCK
+
+
+# Calling/Invoking function
+function_name(argument1, argument2, ......, argumentN)
+
+1) You get up the morning
+2) Go to the bathroom
+3) Pee or Poop
+4) Brush your teeth
+  brush_your_teeth()
+5) Take Bath
+  take_bath()
+6) Breakfast
+7) Go to school
+8) Come home back
+9) Fast food
+10) Homeworks
+11) Dinner
+12) Brush your teeth
+  brush_your_teeth()
+13) Take Bath
+  take_bath()
+12) Sleep
+
+def brush_your_teeth():
+  print("-> Put paste in your brush")
+  print("-> Rub the brush against you teeth")
+  print("-> Rinse your mouth")
+
+def take_bath():
+  print("-> Put on towel")
+  print("-> Shampoo your hair")
+  print("-> Take full body shower")
+
+i = 1
+while i <= 100:
+  print(i)
+  i = i + 1
+
+# Loop
+# 1) for
+# for item in collection:
+#   code
+# 2) while
+
+numbers = [1, 2, 3, 4, 5]
+
+# print(numbers[0] * 2)
+# print(numbers[1] * 2)
+# print(numbers[2] * 2)
+# print(numbers[3] * 2)
+
+for number in numbers:
+  print(number * 2)
+
+dog_breeeds = ["labrador", "german shepherd", "golden retriever", "bulldog", "beagle"]
+
+for breed in dog_breeeds:
+  if breed == "german shepherd":
+    print("I love " + breed + "s!")
+    break
+
+fruits = ["apple", "rough word", "cherry", "rough word", "normal word"]
+
+for fruit in fruits:
+  if fruit == "rough word":
+    continue
+  print(fruit)
+
+print(list(range(1, 101)))
+
+x = 4
+y = 5
+def myfunc():
+  global x
+  global y
+  x = 300
+  y = 400
+  print(x, y)
+
+print(x, y)
+myfunc()
+print(x, y)
+
+
+def areaOfRectangle(length, breadth):
+  area = length * breadth
+  print("I calculated area")
+  return area
+
+def volumeOfCuboid(area, height):
+  volume = area * height
+  print("I calculated volume")
+  return volume
+
+
+length = 5
+breadth = 4
+height = 3
+
+area = areaOfRectangle(length, breadth)
+volume = volumeOfCuboid(area, height)
+
+
+print(f"Area of rectangle is {area} square units.")
+print(f"Volume of cuboid is {volume} cubic units.")
+
+def areaOfRectangle(length, breadth):
+  area = length * breadth
+  print("I calculated area")
+  return area
+
+def volumeOfCuboid(area, height = 20):
+  volume = area * height
+  print("I calculated volume")
+  return volume
+
+
+length = 5
+breadth = 4
+height = 3
+
+area = areaOfRectangle(length, breadth)
+volume = volumeOfCuboid(area, 100)
+
+
+print(f"Area of rectangle is {area} square units.")
+print(f"Volume of cuboid is {volume} cubic units.")
+
+def welcome_message(name = "User"):
+  print(f"Hi, {name}!")
+
+welcome_message("John")
+welcome_message()
+welcome_message("Nick")
+
+def find_youngest_child(**kids):
+  print(kids)
+  print(type(kids))
+  print("The youngest child is " + kids["youngest_child"])
+
+find_youngest_child(first = "Emil", second_child = "Tobias", youngest_child = "Linus")
+
+class Animal: 
+  eat_food = True
+  walk = True
+
+  def __init__(self, name, height, has_tail, can_fly):
+    self.name = name
+    self.height = height
+    self.has_tail = has_tail
+    self.can_fly = can_fly
+
+  def __str__(self):
+    sentence = f"My name is {self.name}. I am {self.height} cm tall. I can eat food. I can walk."
+    if self.can_fly:
+      sentence += " I can fly."
+    else:
+      sentence += " I can't fly."
+
+    if self.has_tail:
+      sentence += " I have tail."
+    else:
+      sentence += " I don't have tail."
+
+    return sentence
+
+cat = Animal("cat", 15, True, False)
+kiwi = Animal("kiwi", 10, False, False)
+crow = Animal("crow", 10, False, True)
+human = Animal("human", 100, False, False)
+
+print(cat)
+print(kiwi)
+print(crow)
+print(human)
+
+# Write a program of Student class to set data and show data
+class Student:
+  def __init__(self, id, name, gender, total_marks, percentage):
+    self.id = id
+    self.name = name
+    self.gender = gender
+    self.total_marks = total_marks
+    self.percentage = percentage
+
+  def setData(self, total_marks, percentage):
+    self.total_marks = total_marks
+    self.percentage = percentage
+
+  def showData(self):
+    print(f"ID: {self.id}")
+    print(f"Name: {self.name}")
+    print(f"Gender: {self.gender}")
+    print(f"Total Marks: {self.total_marks}")
+    print(f"Percentage: {self.percentage}")
+
+
+student_1 = Student(3, "Aarush Raj Joshi", "Male", 700, 70)
+student_2 = Student(11, "Pukar Chhatkuli", "Male", 900, 90)
+student_3 = Student(4, "Roshani Kumari", "Female", 800, 80)
+
+student_3.showData()
+
+student_3.setData(900, 90)
+
+student_3.showData()
+
+# Create a class called Account to store your total_amount
+# Create a function called deposit() to add money to the total_amount
+# Create a function called withdraw() to subtract money from the total
+# Create a function to display the remaining amount
+class Account:
+  def __init__(self, total_amount):
+    # sanitize total_amount
+    self.total_amount = total_amount
+
+  def deposit(self, amount):
+    # sanitize amount
+    # self.total_amount = self.total_amount + amount 
+    self.total_amount += amount
+
+  def withdraw(self, amount):
+    # sanitize amount
+    if self.total_amount < amount:
+      print(f"Your account is deficient. Total amount: {self.total_amount}")
+    else:
+      self.total_amount -= amount
+
+  def remaining_balance(self):
+    return self.total_amount
+
+aarush = Account(50000)
+aarush.withdraw(12000)
+print(aarush.remaining_balance())
+
+pukar = Account(50000)
+pukar.deposit(2000)
+pukar.withdraw(17000)
+pukar.withdraw(60000)
+print(pukar.remaining_balance())
+
+
+Problem 1: Book Class
+Description:
+Create a Book class that models a book in a library. The class should have the following attributes:
+
+title: The title of the book
+author: The author of the book
+year: The year the book was published
+The class should have the following methods:
+
+get_description(): Returns a string in the format "Title by Author, published in Year".
+is_older_than(year): Returns True if the book was published before the given year, False otherwise.
+
+
+Problem 3: Rectangle Class
+Description:Create a Rectangle class that models a rectangle. The class should have the following attributes:
+length: The length of the rectangle
+width: The width of the rectangle
+The class should have the following methods:
+area(): Returns the area of the rectangle.
+perimeter(): Returns t
+he perimeter of the rectangle.
+is_square(): Returns True if the rectangle is a square (i.e., length and width are equal), False otherwise
+
+Problem 3: Car Class
+Description:Create a Car class that models a car. The class should have the following attributes:
+make: The make of the car (e.g., Toyota, Ford)
+model: The model of the car (e.g., Camry, Mustang)
+year: The year the car was manufactured
+fuel_level: The current fuel level of the car (initially set to 100)
+The class should have the following methods:
+drive(distance): Decreases the fuel level based on the distance driven (assume 1 unit of distance decreases fuel by 1 unit). If there is not enough fuel to cover the distance, print a message indicating insufficient fuel and do not decrease the fuel level.
+refuel(amount): Increases the fuel level by the given amount, but the maximum fuel level cannot exceed 100.
+get_fuel_level(): Returns the current fuel level.
+
+
+class Rectangle:
+  def __init__(self, length, width):
+    self.length = length
+    self.width = width
+
+  def area(self):
+    return self.length * self.width
+
+  def perimeter(self):
+    return 2 * (self.length + self.width)
+
+  def is_square(self):
+    return True if self.length == self.width else False
+
+rect1 = Rectangle(7, 7)
+print(f"The area of the rectangle is {rect1.area()}")
+print(f"The perimeter of the rectangle is {rect1.perimeter()}")
+
+
+print("The rectangle is a square." if rect1.is_square() else "The rectangle is not a square.")
+
+
+class Rectangle:
+  def __init__(self, length, width):
+    self.length = length
+    self.width = width
+
+  def area(self):
+    return self.length * self.width
+
+  def perimeter(self):
+    return 2 * (self.length + self.width)
+
+  def is_square(self):
+    return self.length == self.width
+
+rect1 = Rectangle(7, 7)
+print(f"The area of the rectangle is {rect1.area()}")
+print(f"The perimeter of the rectangle is {rect1.perimeter()}")
+
+
+print("The rectangle is a square." if rect1.is_square() else "The rectangle is not a square.")
+
+'''Description:Create a Car class that models a car. The class should have the following attributes:
+make: The make of the car (e.g., Toyota, Ford)
+model: The model of the car (e.g., Camry, Mustang)
+year: The year the car was manufactured
+fuel_level: The current fuel level of the car (initially set to 100)
+The class should have the following methods:
+drive(distance): Decreases the fuel level based on the distance driven (assume 1 unit of distance decreases fuel by 1 unit). If there is not enough fuel to cover the distance, print a message indicating insufficient fuel and do not decrease the fuel level.
+refuel(amount): Increases the fuel level by the given amount, but the maximum fuel level cannot exceed 100.
+get_fuel_level(): Returns the current fuel level.'''  
+
+class Car:
+  def __init__(self, make, model, year, fuel_level):
+    self.__make = make
+    self.__model = model
+    self.__year = year
+    self.__fuel_level = fuel_level
+
+  def drive(self, distance):
+    if self.__fuel_level < distance:
+      print("The fuel is insufficient to cover the distance")
+    else:
+      self.__fuel_level -= distance
+
+  def refuel(self, amount):
+    if self.__fuel_level + amount > 100:
+      print(f"Here is your return money: {amount - (100 - self.__fuel_level)}")
+      self.__fuel_level = 100
+    else:
+      self.__fuel_level += amount
+
+  def get_fuel_level(self):
+    return self.__fuel_level
+
+car1 = Car("Honda", "civic", 2020, 80)
+car1.drive(20)
+car1.refuel(500)
+car1.drive(20)
+print(f"Your current fuel level is {car1.get_fuel_level()}")
+
+# Inheritance
+Base Class
+class Animal {
+  constructor(name, sound) {
+    this.name = name;
+    this.sound = sound;
+  }
+
+  speak() {
+    console.log(`${this.name} says ${this.sound}`);
+  }
+
+  move() {
+    console.log(`${this.name} is moving`);
+  }
+}
+
+# Inherited Class
+class Animal extends Animal {
+  
+}
+
+class Animal:
+def __init__(self, name, sound):
+  self.name = name
+  self.sound = sound
+
+def speak(self):
+  print(f"{self.name} says a {self.sound}.")
+
+def move(self):
+  print(f"{self.name} is moving.")

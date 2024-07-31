@@ -1,0 +1,5 @@
+1) membership operator
+2) split string
+3) string methods
+4) Assignment operators
+5) identity operator
